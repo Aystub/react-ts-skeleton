@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import styled from '@emotion/styled/macro';
 import { MQ } from "./styles/breakpoints";
 import ROUTES from "./router/routes";
