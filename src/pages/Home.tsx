@@ -1,6 +1,6 @@
 import React from "react";
 import ContentContainer from "../components/ContentContainer";
-import styled from "@emotion/styled/macro";
+import styled from "styled-components";
 
 const HomeTitle = styled.h3`
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;

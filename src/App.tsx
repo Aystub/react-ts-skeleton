@@ -1,12 +1,11 @@
 import React from 'react';
-import styled from '@emotion/styled/macro';
 import { MQ } from "./styles/breakpoints";
 import ROUTES from "./router/routes";
-import { css, Global } from "@emotion/react/macro";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {BrowserRouter, BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
+import styled, {createGlobalStyle} from "styled-components";
 
-const globalStyleOverrides = css`
+const GlobalStyles = createGlobalStyle`
   html, body {
     overflow-x: hidden;
   }
@@ -26,14 +25,14 @@ const AppContainer = styled.div`
 
 function App() {
   return (
-    <Router>
-      <Global styles={globalStyleOverrides} />
+    <BrowserRouter>
+      <GlobalStyles />
       <AppContainer>
         <Routes>
           <Route path={ROUTES.HOME} element={<Home />} />
         </Routes>
       </AppContainer>
-    </Router>
+    </BrowserRouter>
   );
 }
 

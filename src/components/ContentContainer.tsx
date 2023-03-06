@@ -1,5 +1,5 @@
 import { MQ } from "../styles/breakpoints";
-import styled from "@emotion/styled/macro";
+import styled from "styled-components";
 
 const ContentContainer = styled.div`
   flex: auto;

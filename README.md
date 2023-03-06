@@ -6,7 +6,7 @@ Template repository for my typical React app setup.
 ## Template Uses
 - #### [Create React App](https://github.com/facebook/create-react-app)
 - #### [TypeScript](https://www.typescriptlang.org/) 
-- #### [Emotion.sh](https://emotion.sh/docs/introduction)
+- #### [Styled Components](https://styled-components.com/)
 - #### [React Router DOM](https://reactrouter.com/web/guides/quick-start)
 
 ---
