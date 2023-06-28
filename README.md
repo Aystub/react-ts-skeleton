@@ -1,4 +1,4 @@
-# React-TS-Emotion-Skeleton
+# React-TS-Skeleton
 Template repository for my typical React app setup.
 
 ---
