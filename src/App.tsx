@@ -1,7 +1,6 @@
-import React from 'react';
 import { MQ } from "./styles/breakpoints";
 import ROUTES from "./router/routes";
-import {BrowserRouter, BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
 import styled, {createGlobalStyle} from "styled-components";
 
